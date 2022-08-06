@@ -1,14 +1,12 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
+
   
-# ${data.title}
+# Readme Generator
 
-  ${data.description}
+  Command line application that autogenerates a Readme File
 
-  ${data.licenseBadge}
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  [A deployed version can be viewed here.](${data.URL})
+  [A deployed version can be viewed here.](https://mikejmarin25.github.io/ReadmeGenerator-CH-09/)
   
 ---
 ## Contents
@@ -27,7 +25,7 @@ function generateMarkdown(data) {
 ---
 ## About
 
-  ${data.about}
+  The project runs on node using inquirer tool to capture user data
 
 ---
 
@@ -64,16 +62,16 @@ THEN I am taken to the corresponding section of the README
 ---
 
 ## Installation:
-  ${data.installation}
+  npm init, npm i inquirer, run project from index.js
 
   To clone the repo:
   
-      git clone ${data.clone}
+      git clone https://github.com/mikejmarin25/ReadmeGenerator-CH-09
   
 ---
 
 ## License
-  License used for this project - ${data.license}
+  License used for this project - MIT
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
 
@@ -95,20 +93,16 @@ THEN I am taken to the corresponding section of the README
 ---
 
 ## Tests:
-  ${data.test}
+  Try catch block for user input
 
 ---
 
 ## Authors and Acknowledgments
-  ${data.author}
+  Mike Marin
 
 ---
 
 ## Questions:
-* GitHub Username: ${data.userName}
-* GitHub Email: ${data.userEmail}
+* GitHub Username: Mikejmarin25
+* GitHub Email: Mikejmarin25@gmail.com
   
-`;
-}
-
-module.exports = generateMarkdown;
