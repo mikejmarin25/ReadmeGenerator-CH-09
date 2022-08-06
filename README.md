@@ -56,6 +56,9 @@ THEN I am taken to the corresponding section of the README
   
 ---
 ## Visuals:
+<img width="1398" alt="Visual 2" src="https://user-images.githubusercontent.com/105763252/183261449-495c7142-d453-4436-bef7-16343000bac8.png">
+<img width="1230" alt="Visual 1" src="https://user-images.githubusercontent.com/105763252/183261452-931a4d46-2ef5-4e96-8cca-f651d658a75b.png">
+
 
   ![]()
 
