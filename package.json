@@ -1,23 +1,22 @@
 {
-  "name": "static-site",
+  "name": "challenge-09-readmegenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package]",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^8.2.4"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikejmarin25/ReadmeGenerator-CH-09.git"
-
   },
+  "author": "Mike Marin",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mikejmarin25/readme-generator/issues"
+    "url": "https://github.com/mikejmarin25/ReadmeGenerator-CH-09/issues"
   },
-  "homepage": "https://github.com/mikejmarin25/readme-generator#readme"
+  "homepage": "https://github.com/mikejmarin25/ReadmeGenerator-CH-09#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
