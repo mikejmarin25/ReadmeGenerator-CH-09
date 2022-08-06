@@ -59,16 +59,21 @@ THEN I am taken to the corresponding section of the README
 ---
 ## Visuals:
 
-  ![]()
+![my screenshot](images/Visual2.png)
 
+---
+
+## Build:
+
+  To clone the repo:
+  
+      git clone ${data.clone}
+      
 ---
 
 ## Installation:
   ${data.installation}
 
-  To clone the repo:
-  
-      git clone ${data.clone}
   
 ---
 
@@ -107,6 +112,7 @@ THEN I am taken to the corresponding section of the README
 ## Questions:
 * GitHub Username: ${data.userName}
 * GitHub Email: ${data.userEmail}
+* GitHub Live URL: ${data.URL}
   
 `;
 }
